@@ -47,7 +47,7 @@ https://taplink.cc/zalevskaya
 ```text
 index.html                  основная страница
 styles.css                  стили и адаптивная версия
-script.js                   меню, анимация и текущий год
+script.js                   мобильное меню и текущий год
 assets/                     оптимизированные фотографии
 .github/workflows/pages.yml автоматический деплой GitHub Pages
 .nojekyll                   отключение обработки Jekyll

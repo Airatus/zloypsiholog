@@ -22,8 +22,8 @@
   <body>
     <a class="skip-link" href="#main">Перейти к содержанию</a>
 
-    <header class="site-header" data-header>
-      <div class="container header-inner">
+    <header class="site-header">
+      <div class="page-shell header-inner">
         <a class="brand" href="#top" aria-label="Елена Залевская — на главную">
           <span class="brand-name">Елена Залевская</span>
           <span class="brand-role">психолог</span>
@@ -42,24 +42,25 @@
 
         <nav class="site-nav" id="site-navigation" aria-label="Основная навигация" data-menu>
           <a href="#about">Обо мне</a>
-          <a href="#help">С чем работаю</a>
+          <a href="#help">Помощь</a>
           <a href="#mac">МАК-карты</a>
-          <a class="nav-cta" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
-            Записаться
-          </a>
+          <span class="nav-mark" aria-hidden="true"></span>
         </nav>
       </div>
     </header>
 
     <main id="main">
       <section class="hero" id="top">
-        <div class="hero-glow" aria-hidden="true"></div>
-        <div class="container hero-grid">
-          <div class="hero-copy" data-reveal>
-            <p class="eyebrow">Психолог · специалист по МАК-картам</p>
-            <h1><span>Злой психолог.</span> Бережно к вам — честно о реальности.</h1>
+        <div class="hero-paper" aria-hidden="true"></div>
+        <div class="page-shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Психолог · МАК-специалист</p>
+            <h1>
+              <span>Злой психолог.</span>
+              Бережно к вам —<br />честно о реальности.
+            </h1>
             <p class="hero-lead">
-              Помогу вернуть контакт с собой, пройти сложный период и изменить то, что больше не работает.
+              Помогу вернуть контакт с собой,<br class="desktop-only" /> пройти кризис и изменить то,<br class="desktop-only" /> что больше не работает.
             </p>
 
             <div class="hero-actions">
@@ -67,23 +68,22 @@
                 Записаться на консультацию
                 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </a>
-              <a class="button button-secondary" href="#about">Узнать обо мне</a>
+              <a class="button button-telegram" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m3 11 17-7-5 16-4-6-4 3 1-5 9-5-7 7" /></svg>
+                Написать в Telegram
+              </a>
             </div>
 
-            <ul class="trust-list" aria-label="Принципы работы">
-              <li>
-                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5z" /></svg>
-                Конфиденциально
-              </li>
-              <li>
-                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z" /></svg>
-                На вашей стороне
-              </li>
-            </ul>
+            <div class="trust-line">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5z" /></svg>
+              <span>Конфиденциально</span>
+              <i aria-hidden="true"></i>
+              <span>На вашей стороне</span>
+            </div>
           </div>
 
-          <div class="hero-visual" data-reveal>
-            <div class="photo-frame">
+          <div class="hero-visual">
+            <div class="hero-photo">
               <img
                 src="assets/elena-hero.webp"
                 width="1200"
@@ -92,202 +92,145 @@
                 fetchpriority="high"
               />
             </div>
-            <p class="hand-note note-top">Трудные разговоры<br />меняют жизнь</p>
-            <p class="hand-note note-bottom">Без осуждения.<br />Только поддержка.</p>
-            <div class="hero-badge" aria-label="Позиционирование">
-              <span>01</span>
-              <strong>Честность<br />без жестокости</strong>
+            <div class="hero-side" aria-hidden="true">
+              <p class="hand-note note-talks">Трудные<br />разговоры<br />меняют<br />жизнь ♡</p>
+              <p class="hand-note note-honesty">Больше<br />честности.<br />Больше<br />себя. ♡</p>
+              <p class="note-support">Без осуждения.<br />Только поддержка.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="manifesto section" id="about">
-        <div class="container split-grid">
-          <figure class="editorial-photo" data-reveal>
+      <section class="why" id="about">
+        <div class="page-shell why-grid">
+          <div class="why-photo">
             <img
               src="assets/elena-mountains.webp"
               width="1200"
               height="1600"
-              alt="Елена Залевская в горах верхом на лошади"
+              alt="Елена Залевская в горах"
               loading="lazy"
             />
-            <figcaption>Иногда нужно уехать далеко, чтобы услышать себя ближе.</figcaption>
-          </figure>
-
-          <div class="manifesto-copy" data-reveal>
-            <p class="eyebrow">Почему «злой»?</p>
-            <h2>Я не обещаю удобных ответов. Я помогаю находить настоящие.</h2>
-            <p class="section-intro">
-              Для меня терапия — не способ спрятаться от реальности, а возможность встретиться с ней безопасно и изменить свою жизнь.
+            <p class="hand-note why-note">Иногда<br />нужно уехать<br />далеко, чтобы<br />услышать<br />себя ближе ♡</p>
+          </div>
+          <div class="why-copy">
+            <h2>Почему «злой»?</h2>
+            <span class="title-stroke" aria-hidden="true"></span>
+            <p>
+              Задам неудобные вопросы. Подсвечу то,<br class="desktop-only" /> что хочется не замечать. Скажу правду —<br class="desktop-only" /> без давления и осуждения.
             </p>
-
-            <ol class="principles">
-              <li>
-                <span>01</span>
-                <div><strong>Максимум реальности</strong><p>Без иллюзий и пустых обещаний.</p></div>
-              </li>
-              <li>
-                <span>02</span>
-                <div><strong>Неудобные вопросы</strong><p>Чтобы увидеть ситуацию под новым углом.</p></div>
-              </li>
-              <li>
-                <span>03</span>
-                <div><strong>Горькая, но правда</strong><p>Честно, бережно и без давления.</p></div>
-              </li>
-              <li>
-                <span>04</span>
-                <div><strong>Свет на сложные моменты</strong><p>Потому что замеченное уже можно менять.</p></div>
-              </li>
-            </ol>
           </div>
         </div>
       </section>
 
-      <section class="services section" id="help">
-        <div class="container">
-          <div class="section-heading" data-reveal>
-            <div>
-              <p class="eyebrow">С чем я могу помочь</p>
-              <h2>Там, где прежние способы больше не работают</h2>
-            </div>
-            <p>
-              Мы будем не искать виноватых, а разбираться, что происходит сейчас и что может стать вашей следующей опорой.
-            </p>
+      <section class="services" id="help">
+        <div class="page-shell">
+          <div class="center-title">
+            <h2>С чем я могу помочь</h2>
+            <span class="title-stroke" aria-hidden="true"></span>
           </div>
 
           <div class="service-grid">
-            <article class="service-card" data-reveal>
-              <div class="service-icon" aria-hidden="true">
+            <article class="service-card">
+              <div class="service-icon icon-green" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><path d="M7 38 19 19l7 10 6-8 9 17H7Z"/><path d="m15 26 4 3 4-4"/></svg>
               </div>
-              <p class="card-number">01</p>
               <h3>Кризис и травма</h3>
-              <p>Поддержка в сложных ситуациях, при переживании кризиса, травмы или насилия.</p>
+              <p>Поддержка в сложных<br />ситуациях</p>
             </article>
 
-            <article class="service-card" data-reveal>
-              <div class="service-icon" aria-hidden="true">
+            <article class="service-card">
+              <div class="service-icon icon-peach" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><path d="M12 10h24v20H12z"/><path d="M7 36h34M19 30v6M29 30v6"/></svg>
               </div>
-              <p class="card-number">02</p>
-              <h3>Профессиональное выгорание</h3>
-              <p>Поиск себя, своего места и устойчивого способа быть в работе и жизни.</p>
+              <h3>Профессиональное<br />выгорание</h3>
+              <p>Поиск себя и своего<br />места</p>
             </article>
 
-            <article class="service-card" data-reveal>
-              <div class="service-icon" aria-hidden="true">
+            <article class="service-card">
+              <div class="service-icon icon-blue" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><path d="M39 9C20 10 10 20 9 39c9-1 20-8 25-19"/><path d="M9 39c7-8 14-14 23-19"/></svg>
               </div>
-              <p class="card-number">03</p>
               <h3>Контакт с собой</h3>
-              <p>Самооценка, понимание своих чувств, границ, потребностей и психосоматических реакций.</p>
+              <p>Самооценка<br />и психосоматика</p>
             </article>
 
-            <article class="service-card" data-reveal>
-              <div class="service-icon" aria-hidden="true">
+            <article class="service-card">
+              <div class="service-icon icon-sand" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><circle cx="16" cy="17" r="6"/><circle cx="33" cy="17" r="6"/><path d="M5 39c1-9 5-14 11-14s10 5 11 14M22 39c1-9 5-14 11-14s10 5 11 14"/></svg>
               </div>
-              <p class="card-number">04</p>
               <h3>Дети и близкие</h3>
-              <p>Трудные подростки, отношения с близкими и сепарация с родителями или детьми.</p>
+              <p>Подростки<br />и сепарация</p>
             </article>
           </div>
-        </div>
-      </section>
 
-      <section class="promise" aria-label="Гарантии работы">
-        <div class="container promise-inner" data-reveal>
-          <div class="promise-title">
-            <span>Я обещаю</span>
-            <strong>быть рядом</strong>
-          </div>
-          <div class="promise-item">
-            <span class="promise-mark">♡</span>
-            <p><strong>Бережно к чувствам</strong><br />и вашим эмоциям</p>
-          </div>
-          <div class="promise-item">
-            <span class="promise-mark">⌁</span>
-            <p><strong>Полная конфиденциальность</strong><br />без исключений</p>
-          </div>
-          <div class="promise-item">
-            <span class="promise-mark">✓</span>
-            <p><strong>Быть на вашей стороне</strong><br />на всём пути</p>
+          <div class="promise-strip" aria-label="Принципы работы">
+            <h2>В работе со мной</h2>
+            <div class="promise-item">
+              <span aria-hidden="true">♡</span>
+              <p>Бережно<br />к чувствам</p>
+            </div>
+            <div class="promise-item">
+              <span aria-hidden="true">▣</span>
+              <p>Полная<br />конфиденциальность</p>
+            </div>
+            <div class="promise-item">
+              <span aria-hidden="true">◇</span>
+              <p>Я на вашей<br />стороне</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="mac section" id="mac">
-        <div class="container mac-grid">
-          <div class="mac-photo" data-reveal>
+      <section class="mac" id="mac">
+        <div class="page-shell mac-grid">
+          <div class="mac-photo">
             <img
               src="assets/elena-mac.webp"
               width="1200"
               height="1600"
-              alt="Елена Залевская с метафорическими ассоциативными картами и сертификатом"
+              alt="Елена Залевская с метафорическими ассоциативными картами"
               loading="lazy"
             />
-            <div class="certificate-label">
-              <span>24 часа</span>
-              <p>Сертификационная программа по работе с МАК</p>
-            </div>
+            <p class="hand-note mac-note">Карты<br />говорят то,<br />что мы уже<br />знаем, но<br />не слышим ♡</p>
           </div>
 
-          <div class="mac-copy" data-reveal>
-            <p class="eyebrow eyebrow-light">Сертифицированный специалист</p>
-            <h2>МАК-карты: разговор с бессознательным</h2>
-            <p class="section-intro">
-              Метафорические ассоциативные карты — психологический инструмент, который помогает увидеть то, что трудно сформулировать словами.
-            </p>
-            <ul class="mac-list">
-              <li><span>?</span>Найти собственный ответ на важный вопрос</li>
-              <li><span>↺</span>Переиграть неприятную ситуацию и облегчить её принятие</li>
-              <li><span>→</span>Увидеть новые пути к цели</li>
-              <li><span>+</span>Найти внутренний ресурс</li>
-            </ul>
-            <a class="button button-light" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
-              Обсудить мой запрос
+          <div class="mac-copy">
+            <p class="mac-eyebrow">Сертифицированный специалист</p>
+            <h2><span>МАК-карты:</span><br />разговор с бессознательным</h2>
+            <p>Найти ответ. Переиграть ситуацию.<br />Увидеть путь к цели. Вернуть ресурс.</p>
+            <a class="button button-outline" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
+              Узнать больше о МАК-картах
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </a>
+            <p class="hand-note mac-side-note">Новые<br />смыслы<br />внутри<br />вас ♡</p>
           </div>
         </div>
       </section>
 
-      <section class="final-cta section" id="contact">
-        <div class="container final-card" data-reveal>
-          <div class="final-copy">
-            <p class="eyebrow">Первый шаг</p>
-            <h2>Готовы посмотреть на ситуацию иначе?</h2>
-            <p>Напишите мне. Вместе определим, с чего начать и какой формат работы вам подойдёт.</p>
-          </div>
-          <a class="button button-primary button-large" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
+      <section class="final-cta" id="contact">
+        <div class="page-shell final-inner">
+          <p class="hand-note final-side-note">Ваша жизнь<br />может быть<br />другой ♡</p>
+          <h2>Готовы посмотреть<br />на ситуацию иначе?</h2>
+          <a class="button button-primary final-button" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
             Выбрать время
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
           </a>
-          <p class="hand-note final-note">Ваша жизнь может<br />быть другой</p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
+      <div class="page-shell footer-inner">
+        <i class="footer-line" aria-hidden="true"></i>
         <div>
-          <a class="brand brand-footer" href="#top">
-            <span class="brand-name">Елена Залевская</span>
-            <span class="brand-role">психолог</span>
-          </a>
-          <p>Больше честности. Больше себя.</p>
+          <p><strong>Елена Залевская</strong> · психолог</p>
+          <span>Больше честности. Больше себя. ♡</span>
         </div>
-        <div class="footer-links">
-          <a href="#about">Обо мне</a>
-          <a href="#help">Направления работы</a>
-          <a href="#mac">МАК-карты</a>
-        </div>
-        <div class="footer-note">
-          <p>Сайт не предназначен для экстренной психологической помощи.</p>
-          <p>© <span data-year></span> Елена Залевская</p>
-        </div>
+        <i class="footer-line" aria-hidden="true"></i>
       </div>
+      <p class="emergency-note">Сайт не предназначен для экстренной психологической помощи.</p>
+      <p class="copyright">© <span data-year></span> Елена Залевская</p>
     </footer>
 
     <a class="mobile-cta" href="https://taplink.cc/zalevskaya" target="_blank" rel="noopener noreferrer">
